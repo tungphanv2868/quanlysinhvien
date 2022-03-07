@@ -13,6 +13,8 @@ function SinhVien () {
         var dtb = (Number(this.diemHoa) + Number(this.diemLy) + Number(this.diemToan))
         return dtb;
     }
-
+    this.xepLoaiSinhVien = function(){
+        console.log('xep loai');
+    }
 }
 
